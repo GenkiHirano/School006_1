@@ -1,4 +1,4 @@
-module github.com/GenkiHirano/homework006
+module github.com/GenkiHirano/School006
 
 go 1.17
 
