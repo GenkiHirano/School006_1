@@ -2,16 +2,9 @@ package homework006
 
 import "fmt"
 
-type User struct {
-	name  string
-	score int
-}
+// User 構造体を定義してください。
 
 func Test_2() {
-	u := new(User)
-	u.name = "佐藤"
-	u.score = 100
-
-	fmt.Println(u.name)
-	fmt.Println(u.score)
+	fmt.Println("homework006_2")
+	// 第6回スクール 宿題2 構造体を実装してください。
 }

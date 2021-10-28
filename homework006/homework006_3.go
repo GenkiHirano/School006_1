@@ -2,11 +2,10 @@ package homework006
 
 import "fmt"
 
-type Student struct {
-	name          string
-	math, english int
-}
+// Triangle 構造体を定義してください。
 
-func (s Student) Test_3() {
-	fmt.Println(s.name, (s.math+s.english)/2)
+func Test_3() int {
+	fmt.Println("homework006_3")
+	// 第6回スクール 宿題3 メソッドを実装してください。
+	// Test_3関数をメソッドにしてください。
 }
