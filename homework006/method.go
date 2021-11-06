@@ -2,10 +2,16 @@ package homework006
 
 import "fmt"
 
-// Triangle 構造体を定義してください。
+type Triangle struct {
+	Bottom, Height int
+}
 
-func Test_3() {
-	fmt.Println("homework006_3")
-	// 第6回スクール 宿題3 メソッドを実装してください。
-	// Test_3関数をメソッドにしてください。
+func (r *Triangle) Triangle() int {
+	return r.Bottom * r.Height / 2
+}
+
+func main() {
+	r := Triangle{Bottom: 25, Height: 10}
+
+	fmt.Println("Triangle: ", r.Triangle())
 }
