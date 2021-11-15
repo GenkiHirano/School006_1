@@ -10,7 +10,7 @@ func (r *Triangle) Triangle() int {
 	return r.Bottom * r.Height / 2
 }
 
-func main() {
+func Test_3() {
 	r := Triangle{Bottom: 25, Height: 10}
 
 	fmt.Println("Triangle: ", r.Triangle())
