@@ -7,6 +7,6 @@ type User struct {
 	score int
 }
 
-func main() {
+func Test_2() {
 	fmt.Println(User{name: "佐藤", score: 100})
 }
