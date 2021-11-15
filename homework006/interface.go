@@ -19,18 +19,10 @@ func (s Subject) average() int {
 	return (s.Math + s.English) / 2
 }
 
-func Calculation2(c Calculation) {
-	fmt.Println("2教科の合計：", c.total())
-	fmt.Println("2教科の平均：", c.average())
-}
+func Test_4(c Calculation) {
+	fmt.Println("homework006_4_Total")
+	fmt.Println(c.Total())
+	fmt.Println("homework006_4_Average")
+	fmt.Println(c.Average())
 
-func main() {
-	var a, b int
-	fmt.Printf("数学の点数：")
-	fmt.Scan(&a)
-	fmt.Printf("英語の点数：")
-	fmt.Scan(&b)
-	s := Subject{Math: a, English: b}
-
-	Calculation2(s)
 }
