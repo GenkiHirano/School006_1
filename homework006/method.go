@@ -2,16 +2,13 @@ package homework006
 
 import "fmt"
 
+// Triangle 構造体を定義してください。
 type Triangle struct {
 	Bottom, Height int
 }
 
-func (r *Triangle) Triangle() int {
-	return r.Bottom * r.Height / 2
-}
-
-func main() {
-	r := Triangle{Bottom: 25, Height: 10}
-
-	fmt.Println("Triangle: ", r.Triangle())
+func (t Triangle) Test_3() int {
+	fmt.Println("homework006_3")
+	
+	return t.Bottom * t.Height / 2
 }
