@@ -3,9 +3,10 @@ package main
 import (
 	"fmt"
 
-	"github.com/GenkiHirano/School006_1/homework006"
+	"github.com/GenkiHirano/School006_2/homework006"
 )
 
+//
 func main() {
 	homework006.Test_1()
 	homework006.Test_2()
